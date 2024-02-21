@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block title %}Login Approved{% endblock %}
+{% block content %}
+    <div class="container">
+        <h1>You are now logged in.</h1>
+        <a class="btn btn-primary" href="{% url 'home' %}">Continue</a>
+    </div>
+{% endblock %}
